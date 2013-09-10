@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+}
+
+#wrap {
+    font-family: Lato, inherit, sans-serif;
+    background: #ecf0f1;
+    /*background: #bdc3c7;*/
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+}
+
+.clear {
+    clear: both;
+}
+
+header {
+    background: #34495E;
+}
+
+.SignIn {
+    font-size: 20px;
+    font-weight: bold;
+    float: right;
+    line-height: 50px;
+    height: 50px;
+    padding: 10px 30px;
+    background: #95a5a6;
+    text-decoration: none;
+    color: #ffffff;
+    /*border-left: 1px #7f8c8d solid;*/
+}
+
+.SignIn:hover {
+    background: #16a085;
+    /*border-bottom: 3px #34495e solid;*/
+}
+
+/*section {*/
+    /*height: 600px;;*/
+/*}*/
+
+input[type=checkbox] {
+    display: none;
+}
+
+label {
+    display: inline-block;
+    cursor: pointer;
+    /*position: relative;*/
+    /*padding-left: 90px;*/
+    /*margin-top: 13px;*/
+    line-height: 50px;
+    color: #ecf0f1;
+}
+
+label:before {
+    content: "CHECK";
+    text-align: center;
+    display: inline-block;
+    /*border: 2px #000000 solid;*/
+    width: 200px;
+    height: 50px;
+    margin-right: 10px;
+    /*position: absolute;*/
+    /*left: 0;*/
+    /*bottom: 1px;*/
+    background: #c0392b;
+}
+
+input[type=checkbox]:checked + label:before {
+    content: "CHECKED";
+    /*color: #ff3300;*/
+    background: #16a085;
+}
+
+.words-input input {
+    color: #ffffff;
+    background: #16a085;
+    border: none;
+    border-bottom: 2px #16a095 solid;
+    padding: 0;
+    line-height: 30px;
+    width: 200px;
+    margin: 0;
+    font-size: 19px;
+    padding-left: 10px;
+}
+
+
+.words-input input[type=submit]:hover {
+    cursor: pointer;
+
+}
+
+input:active {
+    background: #ffff00;
+}
+
+
+section ul {
+    display: inline-block;
+    float: left;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+.content {
+    height: 100%;
+    /*display: inline-block;*/
+    /*float: right;*/
+}
+
+
+footer {
+    background: #7f8c8d;
+    height: 50px;
+}
