@@ -18,10 +18,12 @@ $(document).ready(function() {
                 $('.words-input input[type=text]').each(function(key, item){ 
                     data[item.name] = item.value; 
                 });
-                
+
+                console.log(data);
+
                 $.ajax({
                     type: "GET",
-                    url: "/words/create",
+                    url: "/words/create?",
                     data: data
                 }).done(function( msg ) {
                     alert( "Data Saved: " + msg );
